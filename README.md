@@ -1,52 +1,38 @@
-# Hi, I'm Zakaria! 👋
+# Hi, I'm Zakaria
 
-📍 Amsterdam, the Netherlands
+Data analyst based in Amsterdam, moving into data engineering.
 
-I'm a **Data Analyst working toward becoming a Data Engineer**, with a Master's degree in **Regional and Environmental Economics** and a background in data analysis, GIS, research, and data-driven decision-making.
+My background is in regional and environmental economics (MSc), so I came to data through maps, spatial questions and messy real-world datasets rather than through computer science. [One sentence on what first got you hooked, e.g. a thesis topic, a GIS project, a dataset you couldn't stop digging into.] These days I spend most of my time on Spark and Databricks, building the pipelines that make analysis possible in the first place.
 
-I enjoy working with data to uncover patterns, solve problems, and turn raw information into useful insights. I'm currently expanding my skills in data engineering, cloud technologies, and AI, with a particular interest in building reliable data pipelines and working with large datasets.
+## What I work with
 
-## 🛠️ Technologies & Tools
+- **Languages:** Python, SQL, PySpark
+- **Data engineering:** Spark, Databricks, Delta Lake
+- **Cloud:** Azure
+- **Analysis:** Excel, EDA, a lot of data cleaning
+- **Geospatial:** QGIS, ArcGIS
 
-- **Programming & Querying:** Python, SQL, PySpark
-- **Data Engineering:** Apache Spark, Databricks, Delta Lake
-- **Cloud:** Microsoft Azure
-- **Data Analysis:** Excel, data cleaning, data transformation, exploratory data analysis
-- **GIS & Spatial Analysis:** QGIS, ArcGIS
+## Certifications
 
-## 🎓 Education & Certifications
+Databricks Certified Data Engineer Associate · Azure Fundamentals (AZ-900) · AI-200 · SpikeUp AI graduate
 
-- 🎓 Master's degree in Regional and Environmental Economics
-- 🏅 Databricks Certified Data Engineer Associate
-- ☁️ Microsoft Azure Fundamentals (AZ-900)
-- 🤖 AI-200
-- 🚀 Graduate of the SpikeUp AI course
+## Project: Albert Heijn AI Data Assistant
 
-## 🚀 Featured Project
+During the SpikeUp AI course, my team built an assistant that lets you ask questions about product and sales data in plain language and get answers back from the data.
 
-**Albert Heijn AI Data Assistant**
+My part:
+- Built the Bronze → Silver → Gold pipeline in Spark on Databricks
+- Designed the Gold tables so the assistant's queries stay simple and fast
+- Helped with the agent itself: the system prompt and the SQL execution tool
 
-A team project developed during the SpikeUp AI course. The assistant allows users to ask questions about product and sales data in natural language.
+[One honest line about what was hard or what you learned, e.g. "Getting the agent to write correct SQL was harder than expected, and the table design made a big difference."]
 
-My contributions included:
-- Developing the Bronze, Silver, and Gold data pipeline using Apache Spark in Databricks.
-- Designing Gold-layer tables for analytical queries.
-- Contributing to the AI agent, system prompt, and SQL execution tool.
+## Where I'm headed
 
-## 🌱 What I'm Working Toward
+I want to get better at pipeline design, data quality and modelling, and eventually combine that with my geospatial background, since there aren't many data engineers who also know their way around spatial data.
 
-I'm continuing to develop my data engineering skills, especially in:
-- Building scalable data pipelines and ETL/ELT workflows.
-- Working with Spark, Databricks, and cloud platforms.
-- Improving data quality and designing efficient analytical data models.
-- Combining data engineering, analytics, and geospatial data to solve real-world problems.
+## Off the clock
 
-## 🦜 A Little About Me
+I like parrots. [Do you have one? Which species? A line like "I have a ___ named ___" is far more memorable than "I love parrots."]
 
-Outside of data, **I love parrots!** 🦜
-
-I also enjoy exploring how data, technology, and geography can help us better understand the world around us.
-
----
-
-*Always learning, building, and turning data into something useful.*
+[Optional: LinkedIn / email / what you're open to, e.g. "Open to data engineering roles in the Netherlands."]
