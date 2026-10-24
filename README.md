@@ -2,7 +2,7 @@
 
 Data analyst based in Amsterdam, moving into data engineering.
 
-I came to data through maps rather than computer science. My MSc in Regional and Environmental Economics ended with a thesis on walkability in Győr, Hungary: I used QGIS and Python to score districts on population density, pedestrian connectivity, access to amenities and green space, then tested the differences with Welch's ANOVA. The result was a map of underserved zones, with the socialist-era housing estates scoring highest and the peripheral districts lowest. That mix of messy spatial data and real planning questions is what got me hooked, and it's why I wanted to learn how to build the pipelines behind the analysis.
+I came to data through maps rather than computer science. My MSc thesis in Regional and Environmental Economics used QGIS and Python to measure walkability across districts in Győr, Hungary and pinpoint underserved areas. Working with messy spatial data on real planning questions got me hooked, and it's why I wanted to learn how to build the pipelines behind the analysis.
 
 I'm new to GitHub, and this profile is where I'm putting the projects I build while I gain hands-on experience. I'm looking for a junior data engineering role in the Netherlands.
 
@@ -35,4 +35,5 @@ I want to get better at pipeline design, data quality and data modelling, and ev
 
 ## Get in touch
 
-Open to junior data engineering roles in the Netherlands. [Add your LinkedIn and/or email here.]
+Open to junior data engineering roles in the Netherlands.
+[LinkedIn](https://www.linkedin.com/in/zakaria-suleiman-82b58a250/)
