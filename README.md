@@ -9,14 +9,35 @@ I'm new to GitHub, and this profile is where I'm putting the projects I build wh
 ## What I work with
 
 - **Languages:** Python, SQL, PySpark
-- **Data engineering:** Spark, Databricks, Delta Lake
+- **Data engineering:** Spark, Databricks, Delta Lake, incremental pipelines, REST APIs, Parquet, GitHub Actions
 - **Cloud:** Azure
 - **Analysis:** Excel, pandas, EDA, a lot of data cleaning
-- **Geospatial:** QGIS, ArcGIS
+- **Geospatial:** QGIS, ArcGIS, GeoPandas
 
 ## Certifications
 
 Databricks Certified Data Engineer Associate · Azure Fundamentals (AZ-900) · AI-200 · SpikeUp AI graduate
+
+## Project: Dutch Precipitation Data Pipeline
+
+A self-updating pipeline and interactive map of daily rainfall across the Netherlands, built to bring my geospatial background together with the data engineering skills I'm learning.
+
+**[Live map](https://zakattack-s.github.io/Dutch-precipitation-data-pipeline/)** · **[Code](https://github.com/zakattack-s/Dutch-precipitation-data-pipeline)**
+
+What it does:
+- Collects daily precipitation from the Open-Meteo API (ECMWF IFS model, 438 grid cells of about 8 km) and stores over 600,000 rows in Parquet
+- Updates incrementally: each run fetches only the missing days, re-checks the latest few for revisions, and never leaves gaps or duplicates
+- Turns the grid points into Voronoi polygons with GeoPandas and exports a compact JSON for an interactive map with a day slider
+- Runs on a schedule with GitHub Actions, which updates the data and redeploys the map on GitHub Pages
+
+What I learned:
+- The API only returns the nearest model cell for a coordinate and doesn't list its grid, so I queried a grid of my own and kept the cells the API returned.
+- I tried KNMI's 1 km radar data but dropped it, because it comes as large zip files that would need to be downloaded again for every update. Choosing a data source meant looking at how it's delivered, not only at its resolution.
+- Running the pipeline on GitHub's servers exposed problems that never showed up on my laptop, such as connection timeouts to the API, which I fixed with retries and shorter timeouts.
+
+I used AI as a learning aid throughout and to help build the map's HTML page. The data pipeline and the geospatial processing are the parts I focused on.
+
+Stack: Python, pandas, GeoPandas, Parquet, GitHub Actions, GitHub Pages, Leaflet.
 
 ## Project: Albert Heijn AI Data Assistant
 
@@ -31,7 +52,7 @@ The biggest lesson: the AI is only as good as the data model underneath it. Desi
 
 ## Where I'm headed
 
-I want to get better at pipeline design, data quality and data modelling, and eventually combine that with my geospatial background, since not many data engineers also know their way around spatial data.
+I want to get better at pipeline design, data quality and data modelling, and eventually combine that with my geospatial background, since not many data engineers also know their way around spatial data. The precipitation pipeline is a first step in that direction.
 
 ## Get in touch
 
