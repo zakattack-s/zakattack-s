@@ -52,7 +52,9 @@ The biggest lesson: the AI is only as good as the data model underneath it. Desi
 
 ## Where I'm headed
 
-I want to get better at pipeline design, data quality and data modelling, and eventually combine that with my geospatial background, since not many data engineers also know their way around spatial data. The precipitation pipeline is a first step in that direction.
+I'm focused on building my skills in data engineering, particularly pipeline design, data quality and data modelling. I want to gain experience working with real-world data systems and learn how to build reliable, maintainable pipelines.
+
+My background in data analysis and geospatial data gives me a different perspective on working with data, which I hope to bring into my future work as a data engineer. The precipitation pipeline is one of the projects I've built to put these skills into practice.
 
 ## Get in touch
 
