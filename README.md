@@ -1,10 +1,10 @@
 # Hi, I'm Zakaria
 
-Data analyst based in Amsterdam, moving into data engineering.
+Based in Amsterdam, with a Master's in Regional and Environmental Economics and a background in data analysis and research.
 
-I came to data through maps rather than computer science. My MSc thesis in Regional and Environmental Economics used QGIS and Python to measure walkability across districts in Győr, Hungary and pinpoint underserved areas. Working with messy spatial data on real planning questions got me hooked, and it's why I wanted to learn how to build the pipelines behind the analysis.
+I came to data through maps rather than computer science. My MSc thesis used QGIS and Python to measure walkability across districts in Győr, Hungary, and identify underserved areas. Working with real-world datasets and solving practical problems sparked my interest in data and technology.
 
-I'm new to GitHub, and this profile is where I'm putting the projects I build while I gain hands-on experience. I'm looking for a junior data engineering role in the Netherlands.
+I'm using GitHub to showcase projects where I apply Python, SQL, data analysis and engineering tools to real-world problems. I'm continuously developing my technical skills and exploring how data can be collected, processed, analysed and transformed into meaningful insights.
 
 ## What I work with
 
@@ -50,13 +50,13 @@ My part:
 
 The biggest lesson: the AI is only as good as the data model underneath it. Designing the Gold tables around the questions people would actually ask made SQL generation much easier, and keeping missing-value flags in the data let the assistant explain its limits instead of presenting every answer with false confidence. Reviewing the generated SQL, not just the final answer, was the only way I caught some of the problems.
 
-## Where I'm headed
+## What I'm Working Towards
 
-I'm focused on building my skills in data engineering, particularly pipeline design, data quality and data modelling. I want to gain experience working with real-world data systems and learn how to build reliable, maintainable pipelines.
+I'm continuously developing my skills across data analysis, data engineering and cloud technologies. I'm interested in working with real-world data, solving practical problems and building solutions that make data more accessible, reliable and useful.
 
-My background in data analysis and geospatial data gives me a different perspective on working with data, which I hope to bring into my future work as a data engineer. The precipitation pipeline is one of the projects I've built to put these skills into practice.
+Through my projects, I explore different aspects of the data lifecycle, from collecting and processing data to analysing it and presenting meaningful insights.
 
-## Get in touch
+## Get in Touch
 
-Open to junior data engineering roles in the Netherlands.
+Open to junior opportunities in data and technology in the Netherlands.
 [LinkedIn](https://www.linkedin.com/in/zakaria-suleiman-82b58a250/)
